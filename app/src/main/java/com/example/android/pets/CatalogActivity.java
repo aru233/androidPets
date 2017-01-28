@@ -24,7 +24,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 /**
- * Displays list of pets that were entered and stored in the app.
+ * Displays list of pets that were entered and stored in the app.........
  */
 public class CatalogActivity extends AppCompatActivity {
 
