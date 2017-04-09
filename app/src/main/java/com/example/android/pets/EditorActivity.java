@@ -29,7 +29,11 @@ import android.widget.Spinner;
 
 import com.example.android.pets.data.PetContract.PetEntry;
 
+
 /**
+=======
+/** writing a comment!
+>>>>>>> 88ab6fc5a41e90d963dd136e32ce9f95d8ce6482
  * Allows user to create a new pet or edit an existing one.
  */
 public class EditorActivity extends AppCompatActivity {
@@ -89,11 +93,13 @@ public class EditorActivity extends AppCompatActivity {
                 String selection = (String) parent.getItemAtPosition(position);
                 if (!TextUtils.isEmpty(selection)) {
                     if (selection.equals(getString(R.string.gender_male))) {
-                        mGender = PetEntry.GENDER_MALE;
+
+                        mGender = PetEntry.GENDER_MALE; // Male
                     } else if (selection.equals(getString(R.string.gender_female))) {
-                        mGender = PetEntry.GENDER_FEMALE;
+                        mGender = PetEntry.GENDER_FEMALE; // Female
                     } else {
-                        mGender = PetEntry.GENDER_UNKNOWN;
+                        mGender = PetEntry.GENDER_UNKNOWN; // Unknown
+
                     }
                 }
             }

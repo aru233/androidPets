@@ -30,7 +30,7 @@ import com.example.android.pets.data.PetContract.PetEntry;
 import com.example.android.pets.data.PetDbHelper;
 
 /**
- * Displays list of pets that were entered and stored in the app.
+ * Displays list of pets that were entered and stored in the app.........
  */
 public class CatalogActivity extends AppCompatActivity {
 
